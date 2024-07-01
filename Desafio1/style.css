@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   font-family: "Poppins", sans-serif;
+   font-size: 12px;
+}
+
+body {
+    padding: 0px;
+    background-image: url('imagens/background.jpg');
+    margin: 0;
+ }
+
+ .menu{
+    
+    position: fixed;
+    right: 0px;
+    color: black;
+    width: 33%;
+    height: 100%;
+    z-index: -1;
+    margin: 0;
+    
+    
+ }
+ .gdir{
+   background:rgba(255, 255, 255, 0.4);
+   position: fixed;
+   right: 0px;
+   color: black;
+   width: 33%;
+   height: 100%;
+   z-index: -1;
+   margin: 0;
+  /* opacity: 0.5; o blur é bem melhor hahahahaha */
+   -webkit-backdrop-filter: blur(5px);
+   backdrop-filter: blur(5px);
+   
+}
+
+#formulario{
+    position: absolute;
+    top: 41%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+            
+ }
+
+.btncampo{
+   padding: 18px 20px;
+
+}
+input[type=text], select{
+   width: 41%;
+   height: 40px;
+   padding: 0px 20px;
+   
+}
+
+input[type=password], select{
+   width: 41%;
+   height: 40px;
+   padding: 0px 20px;
+   
+}
+input[type=submit]{
+   background-color: #3934c7;
+   width: 28%;
+   height: 40px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   color: white;
+   margin: 8px 0;
+   min-width: 70px;
+
+}
+
+input[type=submit]:hover {
+   background-color: #06c3ec;
+}
+
+.a1{
+   margin: 0px;
+   font-size: 10px;
+   text-decoration: none;
+}
