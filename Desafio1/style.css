@@ -94,7 +94,7 @@ input[type=submit]:hover {
 
 /*Responsividade :D*/
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 500px) {
 
    body {
       
@@ -109,7 +109,7 @@ input[type=submit]:hover {
    
    .gdir{
       position:absolute;
-      width: 351px;
+      width: 90%;
       height: 300px;
       left: 5%;
       top: 30%;
